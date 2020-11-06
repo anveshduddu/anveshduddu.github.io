@@ -623,9 +623,10 @@ a:hover {
 }
 
 .intro .intro-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  
+  background: -webkit-linear-gradient(#3a9bb4, #1dfd42);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .intro .intro-subtitle {
@@ -647,7 +648,6 @@ a:hover {
 
 .intro-single .intro-title {
   text-transform: uppercase;
-  font-size: 3rem;
 }
 
 .intro-single .breadcrumb {
@@ -689,7 +689,6 @@ a:hover {
 }
 
 .skill-mf .progress {
-  background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
@@ -1214,9 +1213,6 @@ footer .credits a {
     margin-left: 18px;
   }
 
-  .intro .intro-title {
-    font-size: 4.5rem;
-  }
 
   .intro .intro-subtitle {
     font-size: 2.5rem;
@@ -1269,3 +1265,5 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+
