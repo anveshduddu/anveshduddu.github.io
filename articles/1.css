@@ -1,6 +1,8 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+/* image size 1800*1200*/
+
 /* Design */
 *,
 *::before,
@@ -115,3 +117,45 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+
+
+.bar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  color:  #933ded;
+border: 1px solid #ff6c00;
+}
+
+.li{
+  float: left;
+  display: block;
+  color: #933ded;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.media{
+	float: right;
+	margin-top: 9px;
+	margin-right: 10px;
+}
+.media i{
+	 font-size:25px;
+}
+.a{
+	margin-right: 5px;
+	text-decoration: none;
+}
+span{
+	color: #ff6c00;
+}
+
