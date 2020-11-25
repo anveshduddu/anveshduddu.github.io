@@ -148,9 +148,7 @@ border: 1px solid #ff6c00;
 	margin-top: 9px;
 	margin-right: 10px;
 }
-.media i{
-	 font-size:25px;
-}
+
 .a{
 	margin-right: 5px;
 	text-decoration: none;
@@ -159,3 +157,9 @@ span{
 	color: #ff6c00;
 }
 
+
+.image{
+	border-radius: 50%;
+	width:30px;
+	height: 30px;
+}
