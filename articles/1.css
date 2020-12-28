@@ -92,7 +92,7 @@ img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px dashed #ff6c00;  
+    
 }
 
 .card_content {
@@ -124,10 +124,8 @@ img {
 }
 
 
-.bar{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav{
+ 
   overflow: hidden;
   background-color: transparent;
   border-radius: 10px;
@@ -147,11 +145,21 @@ border: 1px solid #ff6c00;
   text-decoration: none;
 }
 
-
+.lii{
+  float: left;
+  display: block;
+  color: #933ded;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
 .media{
 	float: right;
-	margin-top: 9px;
+	margin-top: 10px;
 	margin-right: 10px;
+  text-decoration: none;
+
 }
 
 .a{

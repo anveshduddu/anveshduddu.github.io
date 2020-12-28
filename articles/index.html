@@ -1,25 +1,63 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="1.css">
+    <link rel="stylesheet" href="timer.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Articles</title>
 </head>
-<body>
+<body>  
 	<div class="main">
-  <ul class="bar">
-	  <li class="li">welcome to my articles</li>
+  <ul class="nav">
+	  <li class="lii">welcome to my articles</li>
 	  <a href="myprofile/index.html">
 	  <li class="media" style="background-color: #696969;border-radius: 11px;"><span>&nbsp;&nbsp;&nbsp;Anvesh duddu&nbsp;&nbsp;</span>
 	  	<img class="image" src="image.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
 	  </li></a>
 	</ul>
+  
+
+
+  <br>
+  <br>
+
+
+
+
+  <div class="container">
+  <h1 id="headline">Time left for new aticle.🥰🥰</h1>
+  <div id="countdown" class="count">
+    <ul class="ul">
+      <li class="li"><span id="days"></span>days</li>
+      <li class="li"><span id="hours"></span>Hours</li>
+      <li class="li"><span id="minutes"></span>Minutes</li>
+      <li class="li"><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+  <div class="message">
+    <div id="content">
+     <!-- <span class="emoji">New Article is loading</span> -->
+    </div>
+  </div>
+</div>
 	<br>
+
+
+
+
+
+
+
+
+
+
+
+
   <ul class="cards">
     <li class="cards_item">
       <div class="card">
         <div class="card_image"><img src="https://miro.medium.com/max/3600/1*vN86lZCAdr3RDSXc0cuHcA.jpeg"></div>
         <div class="card_content">
-          <h2 class="card_title">Introduction to cloud computing</h2>
+          <h2 class="card_title">Introduction to  cloud computing</h2>
           <p class="card_text">"The cloud" refers to servers that are accessed over the Internet and the software and ..........</p>
          <a href="https://introductioncloudcomputing.blogspot.com/" style="text-decoration: none;"> <button class="btn card_btn" >Read More</button></a>
         </div>
@@ -30,13 +68,13 @@
         <div class="card_image"><img src="serverless.jpg"></div>
         <div class="card_content">
           <h2 class="card_title">Introduction to Serverless Computing</h2>
-          <p class="card_text">Serverless computing is an execution mode..............</p>
+          <p class="card_text">Serverless computing is an execution ................</p>
           <a href="https://severlesscomputing.blogspot.com/2020/11/serverless-computing-what-is-serverless.html#more" style="text-decoration: none;"><button class="btn card_btn">Read More</button></a>
         </div>
       </div>
     </li>
 
-  <li class="cards_item">
+<li class="cards_item">
       <div class="card">
         <div class="card_image"><img src="Cyber-Security.jpg"></div>
         <div class="card_content">
@@ -46,6 +84,19 @@
         </div>
       </div>
     </li>
+
+
+      <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="learn-cloud.png"></div>
+        <div class="card_content">
+          <h2 class="card_title">Best Ways To learn Cloud Computing</h2>
+          <p class="card_text">Find your best way to learn cloud in the best platform...........<p>
+          <a href="https://introductioncloudcomputing.blogspot.com/2020/12/h2-color-933ded-pli-color-white-span.html" style="text-decoration: none;"><button class="btn card_btn">Read More</button></a>
+        </div>
+      </div>
+    </li>
   </ul>
 </body>
 </html>
+<script type='text/javascript' src="timer.js"></script>
