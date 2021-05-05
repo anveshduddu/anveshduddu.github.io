@@ -967,6 +967,9 @@ border-radius: 35px;
   font-style: italic;
 }
 
+.card-footer{
+  border-style: none;
+}
 /*------/ Comments /------*/
 
 .box-comments .list-comments li {
@@ -1057,6 +1060,8 @@ border-radius: 35px;
 .widget-tags ul li a {
   color: #fff;
 }
+
+`
 
 /*======================================
 //--//-->   CONTACT
