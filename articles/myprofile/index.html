@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My-Short-Profile</title>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="profile">
+			<div class="picture">
+				<img src="https://avatars0.githubusercontent.com/u/37796863?s=460&u=d402b8257069904cd50c2f112a9e26dbca1d19ee&v=4" alt="profile_pic">
+			</div>
+			<div class="name_role">
+				<p>Anvesh Duddu</p>
+				<span>Froent-End developer| Digital Marketing| Python Development</span>
+			</div>
+			<div class="skills">
+				<span>HTML</span> <span>CSS</span> <span>Javascript</span>
+				<span class="popup_btn">+5</span>
+			</div>
+			<div class="level">
+				<div class="level_data">
+					<p>Skill Set Levels: <span>80%</span></p>
+				</div>
+				<div class="level_bars">
+					<div class="bar_wrap">
+						<div class="inner_bar" style="width: 100%;"></div>
+					</div>
+					<div class="bar_wrap">
+						<div class="inner_bar" style="width: 100%;"></div>
+					</div>
+					<div class="bar_wrap">
+						<div class="inner_bar" style="width: 100%;"></div>
+					</div>
+					<div class="bar_wrap">
+						<div class="inner_bar" style="width: 100%;"></div>
+					</div>
+					<div class="bar_wrap">
+						<div class="inner_bar" style="width: 0%;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="bio">
+				I'm an computer science engineer pursuing at hindustan university,coupled with a vibrant presentation skills and an analytical approach.i am waiting for an opportunity to prove my skillsets in the computer science.
+			</div>
+                 <div class="visit">
+			<p>Check My full Profile<a class="link" href="http://anveshduddu.github.io/"> &nbsp;click here>></a></p>
+			</div>
+			<div class="social_media">
+				<div class="icon"><a class="a" href="https://twitter.com/DudduAnvesh"><i class="fab fa-twitter"></i></a></div>
+        <div class="icon"><a class="a" href="https://www.linkedin.com/in/anvesh-duddu-866b531a6/"><i class="fab fa-linkedin" ></i></a></div>
+				<div class="icon"><a class="a" href="https://github.com/anveshduddu/"><i class="fab fa-github" ></i></a></div>
+
+			</div>
+
+			<div class="popup">
+				<div class="shadow"></div>
+				<div class="inner_popup">
+					<div class="total_skill">
+						<div class="close_btn"><i class="fas fa-times"></i></div>
+						<span>HTML</span>
+						<span>CSS</span>
+						<span>Javascript</span>
+						<span>Sql</span>
+						<span>MS office</span>
+						<span>AngularJS</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var popup_btn = document.querySelector(".popup_btn");
+		var popup = document.querySelector(".popup");
+		var close_btn = document.querySelector(".close_btn");
+
+		popup_btn.addEventListener("click", function(){
+			popup.classList.add("active");
+		});
+
+		close_btn.addEventListener("click", function(){
+			popup.classList.remove("active");
+		});
+	</script>
+
+</body>
+</html>
