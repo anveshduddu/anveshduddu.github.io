@@ -623,7 +623,7 @@ a:hover {
 }
 
 .intro .intro-title {
-  
+
   background: -webkit-linear-gradient(#3a9bb4, #1dfd42);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1265,5 +1265,6 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
 
 
